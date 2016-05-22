@@ -14,43 +14,73 @@ export default class App extends React.Component {
      name: "hans nilsson",
      age: 37,
      sex: 1, // Male
-     image: "dude4.jpg"
+     image: "dude4.jpg",
+     title: "chef"
+    },
+    {
+     id: 2,
+     name: "lars hansson",
+     age: 15,
+     sex: 1,
+     image: "dude5.jpg",
+     title: "chef"
     },
     {
      id: 3,
-     name: "lars hansson",
-     age: 15,
-     sex: 1, // Male
-     image: "dude5.jpg"
-    },
-    {
-     id: 4,
      name: "mikaela åkerlund",
      age: 65,
      sex: 2, // Female
      visible: true,
-     image: "girl4.jpg"
+     image: "girl4.jpg",
+     title: "anställd"
+    },
+    {
+     id: 4,
+     name: "lina falkenberg",
+     age: 48,
+     sex: 2,
+     image: "girl3.jpg",
+     title: "chef"
     },
     {
      id: 5,
-     name: "lina falkenberg",
-     age: 48,
-     sex: 2, // Female
-     image: "girl3.jpg"
+     name: "vilhelm falkenmark",
+     age: 29,
+     sex: 1,
+     image: "dude8.jpg",
+     title: "anställd"
     },
     {
      id: 6,
-     name: "vilhelm falkenmark",
-     age: 29,
-     sex: 1, // Male
-     image: "dude8.jpg"
-    },
-    {
-     id: 7,
      name: "johanna falkenmark",
      age: 28,
      sex: 2,
-     image: "girl4.jpg"
+     image: "girl4.jpg",
+     title: "chef"
+    },
+    {
+     id: 7,
+     name: "lovisa bistrop",
+     age: 16,
+     sex: 2,
+     image: "girl2.jpg",
+     title: "anställd"
+    },
+    {
+     id: 8,
+     name: "Håkan Hellqvist",
+     age: 33,
+     sex: 1,
+     image: "dude1.jpg",
+     title: "chef"
+    },
+    {
+     id: 9,
+     name: "mikael fogelström",
+     age: 37,
+     sex: 1,
+     image: "dude6.jpg",
+     title: "anställd"
     }
    ]
   }
