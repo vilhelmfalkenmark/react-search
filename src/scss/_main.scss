@@ -1,0 +1,43 @@
+@import "../bootstrap/css/bootstrap.min.css";
+
+.app-container {
+  margin-top:40px;
+}
+
+.display-none {
+  display: none;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.members-container {
+ margin-top: 40px;
+}
+
+.single-member-container {
+  margin: 20px 0;
+  min-height: 200px;
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+.member-image-container {
+  float: left;
+  width: 40%;
+}
+.member-info-container {
+  float: left;
+  width: calc(60% - 10px);
+  margin-left: 10px;
+}
+
+
+
+.member-portrait {
+  height: auto;
+  width: 100%;
+}
