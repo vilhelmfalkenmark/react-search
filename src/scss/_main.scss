@@ -27,11 +27,11 @@
 }
 .member-image-container {
   float: left;
-  width: 40%;
+  width: 45%;
 }
 .member-info-container {
   float: left;
-  width: calc(60% - 10px);
+  width: calc(55% - 10px);
   margin-left: 10px;
 }
 
@@ -39,6 +39,23 @@
   height: auto;
   width: 100%;
 }
+.readmore-btn {
+  background: none;
+  border: 1px solid gray;
+  outline: 0;
+  outline: none !important;
+  &:hover {
+    background: lighten(gray,10%);
+    color: white;
+  }
+  &:active {
+    background: lighten(gray,15%);
+    color: white;
+  }
+
+
+}
+
 
 
 .offset-top-40 {

@@ -14,7 +14,6 @@ export default class Member extends React.Component {
      <p>{ this.props.member.age } år gammal</p>
      <p>{ this.props.member.sex == 1 ? "Man" : "Kvinna" }</p>
       <p className="capitalize">{ this.props.member.title }</p>
-       <button type="button" className="btn readmore-btn">Läs mer</button>
     </div>
    </div>
   )

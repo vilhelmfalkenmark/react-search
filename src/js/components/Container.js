@@ -15,7 +15,8 @@ export default class App extends React.Component {
      age: 37,
      sex: 1, // Male
      image: "dude4.jpg",
-     title: "chef"
+     title: "chef",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 2,
@@ -23,7 +24,8 @@ export default class App extends React.Component {
      age: 15,
      sex: 1,
      image: "dude5.jpg",
-     title: "chef"
+     title: "chef",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 3,
@@ -32,7 +34,8 @@ export default class App extends React.Component {
      sex: 2, // Female
      visible: true,
      image: "girl4.jpg",
-     title: "anställd"
+     title: "anställd",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 4,
@@ -40,7 +43,8 @@ export default class App extends React.Component {
      age: 48,
      sex: 2,
      image: "girl3.jpg",
-     title: "chef"
+     title: "chef",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 5,
@@ -48,7 +52,8 @@ export default class App extends React.Component {
      age: 29,
      sex: 1,
      image: "dude8.jpg",
-     title: "anställd"
+     title: "anställd",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 6,
@@ -56,7 +61,8 @@ export default class App extends React.Component {
      age: 28,
      sex: 2,
      image: "girl4.jpg",
-     title: "chef"
+     title: "chef",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 7,
@@ -64,7 +70,8 @@ export default class App extends React.Component {
      age: 16,
      sex: 2,
      image: "girl2.jpg",
-     title: "anställd"
+     title: "anställd",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 8,
@@ -72,7 +79,8 @@ export default class App extends React.Component {
      age: 33,
      sex: 1,
      image: "dude1.jpg",
-     title: "chef"
+     title: "chef",
+     about: "Lorem ipsum dolor sit amet"
     },
     {
      id: 9,
@@ -80,7 +88,8 @@ export default class App extends React.Component {
      age: 37,
      sex: 1,
      image: "dude6.jpg",
-     title: "anställd"
+     title: "anställd",
+     about: "Lorem ipsum dolor sit amet"
     }
    ]
   }

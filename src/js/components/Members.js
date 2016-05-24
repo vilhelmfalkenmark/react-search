@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Member from "./Member.js";
 import Search from "./Search.js";
+import Modal from "./Modal.js";
+
+
 
 export default class Members extends React.Component {
  constructor() {
